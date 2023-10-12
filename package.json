@@ -6,7 +6,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "start": "nodemon --es-module-specifier-resolution=node app.js",
+    "start": "nodemon --es-module-specifier-resolution=node -r dotenv/config app.js",
     "migrate": "node --es-module-specifier-resolution=node migrate.js"
   },
   "dependencies": {
